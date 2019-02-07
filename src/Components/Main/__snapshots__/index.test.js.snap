@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main Should match the snapshot 1`] = `
+<div>
+  <form>
+    <input
+      placeholder="Search..."
+      type="text"
+    />
+    <p>
+      <input
+        type="checkbox"
+      />
+      Only show products in stock
+    </p>
+  </form>
+  <table>
+    <thead>
+      <tr>
+        <th>
+          Name
+        </th>
+        <th>
+          Price
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th
+          colSpan="2"
+        >
+          Sporting Goods
+        </th>
+      </tr>
+      <tr>
+        <td>
+          Football
+        </td>
+        <td>
+          $49.99
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Baseball
+        </td>
+        <td>
+          $9.99
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Basketball
+        </td>
+        <td>
+          $29.99
+        </td>
+      </tr>
+      <tr>
+        <th
+          colSpan="2"
+        >
+          Electronics
+        </th>
+      </tr>
+      <tr>
+        <td>
+          iPod Touch
+        </td>
+        <td>
+          $99.99
+        </td>
+      </tr>
+      <tr>
+        <td>
+          iPhone 5
+        </td>
+        <td>
+          $399.99
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Nexus 7
+        </td>
+        <td>
+          $199.99
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
