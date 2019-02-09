@@ -5,7 +5,16 @@ import ProductRow from '../ProductRow';
 const ProductTable = (props) => {
   const rows = [];
   let lastCategory = null;
+  const searchText = props.searchText;
+  const isStocked = props.isStocked;
   props.products.forEach((product) => {
+
+    if(product.name.indexOf(searchText) === -1) {
+      return;
+    }
+    if(isStocked && !product.stocked){
+      return;
+    }
     if(product.category !== lastCategory) {
       rows.push(
         <ProductCategoryRow category = {product.category} key = {product.category} />
